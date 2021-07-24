@@ -13,6 +13,12 @@
 		DC82134A26AC252300BE500E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC82134826AC252300BE500E /* Main.storyboard */; };
 		DC82134C26AC252400BE500E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC82134B26AC252400BE500E /* Assets.xcassets */; };
 		DC82134F26AC252400BE500E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC82134D26AC252400BE500E /* LaunchScreen.storyboard */; };
+		DC82135826AC255900BE500E /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC82135626AC255900BE500E /* FirstVC.swift */; };
+		DC82135926AC255900BE500E /* FirstVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC82135726AC255900BE500E /* FirstVC.xib */; };
+		DC82135C26AC256700BE500E /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC82135A26AC256700BE500E /* SecondVC.swift */; };
+		DC82135D26AC256700BE500E /* SecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC82135B26AC256700BE500E /* SecondVC.xib */; };
+		DC82135F26AC2B8000BE500E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC82135E26AC2B8000BE500E /* Constants.swift */; };
+		DC82136126AC316000BE500E /* UserDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC82136026AC316000BE500E /* UserDM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		DC82134B26AC252400BE500E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC82134E26AC252400BE500E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC82135026AC252400BE500E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC82135626AC255900BE500E /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		DC82135726AC255900BE500E /* FirstVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstVC.xib; sourceTree = "<group>"; };
+		DC82135A26AC256700BE500E /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		DC82135B26AC256700BE500E /* SecondVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondVC.xib; sourceTree = "<group>"; };
+		DC82135E26AC2B8000BE500E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DC82136026AC316000BE500E /* UserDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,12 @@
 				DC82134B26AC252400BE500E /* Assets.xcassets */,
 				DC82134D26AC252400BE500E /* LaunchScreen.storyboard */,
 				DC82135026AC252400BE500E /* Info.plist */,
+				DC82135626AC255900BE500E /* FirstVC.swift */,
+				DC82135726AC255900BE500E /* FirstVC.xib */,
+				DC82135A26AC256700BE500E /* SecondVC.swift */,
+				DC82135B26AC256700BE500E /* SecondVC.xib */,
+				DC82135E26AC2B8000BE500E /* Constants.swift */,
+				DC82136026AC316000BE500E /* UserDM.swift */,
 			);
 			path = Lesson_90_Repeatition;
 			sourceTree = "<group>";
@@ -124,7 +142,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC82135D26AC256700BE500E /* SecondVC.xib in Resources */,
 				DC82134F26AC252400BE500E /* LaunchScreen.storyboard in Resources */,
+				DC82135926AC255900BE500E /* FirstVC.xib in Resources */,
 				DC82134C26AC252400BE500E /* Assets.xcassets in Resources */,
 				DC82134A26AC252300BE500E /* Main.storyboard in Resources */,
 			);
@@ -138,8 +158,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC82134726AC252300BE500E /* ViewController.swift in Sources */,
+				DC82135C26AC256700BE500E /* SecondVC.swift in Sources */,
+				DC82136126AC316000BE500E /* UserDM.swift in Sources */,
+				DC82135826AC255900BE500E /* FirstVC.swift in Sources */,
 				DC82134326AC252300BE500E /* AppDelegate.swift in Sources */,
 				DC82134526AC252300BE500E /* SceneDelegate.swift in Sources */,
+				DC82135F26AC2B8000BE500E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
